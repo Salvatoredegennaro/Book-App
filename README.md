@@ -1,2 +1,1 @@
-
-a full-stack codebase using graphql
+A full-stack codebase using graphql
