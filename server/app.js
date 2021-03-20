@@ -8,7 +8,7 @@ const app = express();
 
 app.use(cors());
 
-mongoose.connect('mongodb+srv://Festeradam86:Festeradam86@cluster0.noxhk.mongodb.net/myFirstDatabase?retryWrites=true&w=majority', {useUnifiedTopology: true, useNewUrlParser: true})
+mongoose.connect('mongodb+srv://username:your_password@cluster0.noxhk.mongodb.net/name_of_your_database?retryWrites=true&w=majority', {useUnifiedTopology: true, useNewUrlParser: true})
 mongoose.connection.once('open', () =>{
     console.log('connected to database')
 })
